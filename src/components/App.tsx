@@ -30,7 +30,7 @@ export default function App() {
   return (
     <>
       <CafeInfo />
-      <VoteOptions onVote={handleVote} onReset={resetVotes} />
+      <VoteOptions onVote={handleVote} onReset={resetVotes} canReset={true} />
       <VoteStats votes={votes} />
     </>
   );
